@@ -1,0 +1,29 @@
+.App{
+  text-align: center;
+  background-image: url('https://cdn.wallpapersafari.com/69/45/3JrbO5.jpg');
+}
+
+.App > h1{
+color: azure;
+}
+.BlogCard{
+  
+  margin: 25px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: rgb(240, 214, 143);
+  font-size: 24px;
+}
+.newblogcard > button{
+  font-size: 24px;
+}
+@media (min-width: 992px) {
+  .BlogCard{
+   
+    width:45%;
+    display:inline-block;
+
+  }
+}
